@@ -248,15 +248,12 @@ def print_scores(title: str, scores: Scores) -> None:
         print("Aucun combat comptabilisé.")
         return
 
-    elos_lisible = {}
-    for leek_id, elo in ELOs.items():
-        elos_lisible[leek_id] = round(elo, 2)
-    # print(elos_lisible) # L'ordre des BR est important pour le calcul des ELOs. Mais avec suffisamment de BR, les scores de chacun devraient converger dans tous les cas.
+    # L'ordre des BR est important pour le calcul des ELOs. Mais avec suffisamment de BR, les scores de chacun devraient converger dans tous les cas.
 
     max_length = max(len(name) for name in ELOs.keys())
     print(f"""{"Poireau".ljust(max_length)} | Talent  | Nb de combats | Nb de victoires""")
     for name in sorted(ELOs.keys(), key=lambda x: ELOs[x], reverse=True):
-        elo = round(ELOs[name], 2) # Ou juste récupérer elos_lisibles
+        elo = round(ELOs[name], 2)
         nb_combats = COUNT.get(name, 0) # Si on n'a pas participé à la dernière soirée, on peut ne pas être dedans
         nb_win = WINS.get(name, 0)
         print(f"{name.ljust(max_length)} | {str(elo).ljust(7)} | {str(nb_combats).ljust(13)} | {nb_win}")
