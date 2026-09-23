@@ -1,18 +1,18 @@
 {
     "ELOs": {
-        "Kavaliov": 1662.8338699957326,
-        "Katarn": 1387.2548878003922,
-        "LaBaguetteMagiqueDeRoger": 1377.078918767868,
-        "ArleneMachiavelli": 1367.4874697879588,
-        "crapoireaud": 1418.8031737380068,
-        "RageRanger": 1407.854095361742,
-        "PubleekDomain": 1477.05626271045,
-        "Évariste": 1503.9641382722068,
-        "Poporte": 1363.0142538420946,
-        "Claudias": 2013.5595502691447,
-        "GeorgeSmiley": 1734.8856685168905,
-        "PoirBio": 1537.4976262622768,
-        "Non déterminé": 1553.6378702513475
+        "Kavaliov": 1633.6904907037804,
+        "Katarn": 1356.1702287325638,
+        "LaBaguetteMagiqueDeRoger": 1349.9554962346488,
+        "ArleneMachiavelli": 1337.1201868335154,
+        "crapoireaud": 1398.29195605844,
+        "RageRanger": 1390.7806864320412,
+        "PubleekDomain": 1451.2211863818675,
+        "Évariste": 1482.8644927749644,
+        "Poporte": 1333.0814022218897,
+        "Claudias": 1986.443808471704,
+        "GeorgeSmiley": 1711.883142950696,
+        "PoirBio": 1519.5609862823014,
+        "Non déterminé": 1548.9359359215887
     },
     "COUNT": {
         "Kavaliov": 43,
@@ -43,5 +43,69 @@
         "GeorgeSmiley": 8,
         "PoirBio": 2,
         "Non déterminé": 1
+    },
+    "BY_TYPE": {
+        "3": {
+            "ELOs": {
+                "Kavaliov": 1633.6904907037804,
+                "Katarn": 1356.1702287325638,
+                "LaBaguetteMagiqueDeRoger": 1349.9554962346488,
+                "ArleneMachiavelli": 1337.1201868335154,
+                "crapoireaud": 1398.29195605844,
+                "RageRanger": 1390.7806864320412,
+                "PubleekDomain": 1451.2211863818675,
+                "Évariste": 1482.8644927749644,
+                "Poporte": 1333.0814022218897,
+                "Claudias": 1986.443808471704,
+                "GeorgeSmiley": 1711.883142950696,
+                "PoirBio": 1519.5609862823014,
+                "Non déterminé": 1548.9359359215887
+            },
+            "COUNT": {
+                "Kavaliov": 43,
+                "Katarn": 53,
+                "LaBaguetteMagiqueDeRoger": 55,
+                "ArleneMachiavelli": 63,
+                "crapoireaud": 66,
+                "RageRanger": 37,
+                "PubleekDomain": 49,
+                "Évariste": 65,
+                "Poporte": 66,
+                "Claudias": 65,
+                "GeorgeSmiley": 61,
+                "PoirBio": 37,
+                "Non déterminé": 4
+            },
+            "WINS": {
+                "Kavaliov": 7,
+                "Katarn": 0,
+                "LaBaguetteMagiqueDeRoger": 0,
+                "ArleneMachiavelli": 0,
+                "crapoireaud": 1,
+                "RageRanger": 0,
+                "PubleekDomain": 1,
+                "Évariste": 2,
+                "Poporte": 0,
+                "Claudias": 51,
+                "GeorgeSmiley": 8,
+                "PoirBio": 2,
+                "Non déterminé": 1
+            }
+        },
+        "5": {
+            "ELOs": {},
+            "COUNT": {},
+            "WINS": {}
+        },
+        "6": {
+            "ELOs": {},
+            "COUNT": {},
+            "WINS": {}
+        },
+        "7": {
+            "ELOs": {},
+            "COUNT": {},
+            "WINS": {}
+        }
     }
 }
